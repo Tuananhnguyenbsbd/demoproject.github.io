@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="app">
+            <div class="header">
+                <h1>Giai pt a<sup>2</sup>+bx+c</h1>
+                <h3 class="cout"></h3>
+            </div>
+            <hr/>
+            <div class="input">
+                <p>nhap a<input type="text" name=" " id="a"></p>
+                <p>nhap b<input type="text" name=" " id="b"></p>
+                <p>nhap c<input type="text" name=" " id="c"></p>
+                <p id="error"></p>
+                <div class="input-btn">
+                <button onclick="Clickgiaipt()">giai pt</button>
+                <button onclick="reset()">reset</button>
+                <button onclick="random()">cho so</button>
+                </div>
+                <hr/>
+                <div class="result">
+                    <h1>result</h1>
+                    <h2 id="result-heading"></h2>
+                    <p id="x"></p>
+                </div>
+            </div>
+            <div class="date">
+                <p class="date-now"></p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./scrip.js"></script>
+</html>
