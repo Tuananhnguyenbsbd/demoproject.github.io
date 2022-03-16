@@ -15,7 +15,6 @@ html{
 }
 .app{
     width: 60%;
-    max-height: 80vh;
     text-align: center;
     background-color:#ead5dc;
     align-self: center;
@@ -34,6 +33,7 @@ html{
     padding: 5px;
     margin-left: 5px;
     border-radius: 3px;
+    width: 50%;
 }
 .input-btn{
     margin: 20px 0px;
